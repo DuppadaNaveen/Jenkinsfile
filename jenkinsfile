@@ -1,0 +1,15 @@
+node{
+    stage('gitstage'){
+        
+        echo"this is a git stage"
+    }
+    stage('package'){
+        
+        echo"this is mvn package stage"
+    }
+    stage('copy war file'){
+        
+        echo "copy stage"
+    }
+}
+
